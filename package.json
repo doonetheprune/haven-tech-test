@@ -1,0 +1,29 @@
+{
+  "name": "haven-tech-test",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node dist/src/main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doonetheprune/haven-tech-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doonetheprune/haven-tech-test/issues"
+  },
+  "homepage": "https://github.com/doonetheprune/haven-tech-test#readme",
+  "dependencies": {
+    "@types/jest": "^28.1.4",
+    "@types/lodash": "^4.14.182",
+    "jest": "^28.1.2",
+    "lodash": "^4.17.21",
+    "ts-jest": "^28.0.5"
+  }
+}
