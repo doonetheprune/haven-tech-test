@@ -1,4 +1,4 @@
-const high = {
+const hightMock = {
   input: {
     "auditReportVersion": 2,
     "vulnerabilities": {
@@ -472,7 +472,7 @@ const high = {
   }
 };
 
-const moderate = {
+const moderateMock = {
   input: {
     "auditReportVersion": 2,
     "vulnerabilities": {
@@ -705,3 +705,5 @@ const moderate = {
   },
   output: {}
 };
+
+export {hightMock, moderateMock}
